@@ -16,9 +16,9 @@ class Song
   #  @@songs.detect{|a| a.name == name}
   #end
 
-  def self.all
-    @@songs
-  end
+  #def self.all
+  #  @@songs
+  #end
 
   def artist=(artist)
     @artist = artist
